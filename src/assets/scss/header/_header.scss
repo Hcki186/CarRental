@@ -1,15 +1,20 @@
 .headerBar {
-    margin: 0.4375em auto;
+    margin: 0 auto;
+    padding-top: 0.4375em;
     text-align: center;
-    list-style-type: none;
-    background-color: aqua;
 }
 
 .bar {
     display: block;
-    list-style-type: none;
+    padding: 0;
 }
 
 .bar li {
     display: inline;
+    padding-inline-end: 1em;
+    padding-inline-start: 1em;
+}
+.bar li a {
+    text-decoration: none;
+    color: $white;
 }

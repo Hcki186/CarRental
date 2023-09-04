@@ -1,0 +1,13 @@
+
+body {
+    background-color: $bg-Woodsmoke;
+}
+
+.HomePage {
+    background-image: url("../img/homePageImg.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
