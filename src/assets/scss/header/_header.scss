@@ -1,0 +1,15 @@
+.headerBar {
+    margin: 0.4375em auto;
+    text-align: center;
+    list-style-type: none;
+    background-color: aqua;
+}
+
+.bar {
+    display: block;
+    list-style-type: none;
+}
+
+.bar li {
+    display: inline;
+}
