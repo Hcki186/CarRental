@@ -1,0 +1,22 @@
+.searchForm {
+
+    background-color: $bg-search-form;
+    margin-top: 20em;
+    
+
+    .form {
+        max-width: 60em;
+        margin: 0 auto;
+        padding: 2em 0;
+    }
+
+    #manufacturer {
+        font-size: 1.5em;
+        padding: 0.5625em 3.25em;
+        background: $big-stone;
+        color: $white;
+        border: none;
+    }
+
+
+}
