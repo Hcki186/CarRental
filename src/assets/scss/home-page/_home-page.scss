@@ -11,3 +11,19 @@ body {
     width: 100%;
     height: 100vh;
 }
+
+.homePageText {
+    color: $white;
+    margin-top: 13.5em;
+    line-height: .3em;
+
+    h1{
+        font-size: 3em;
+    }
+    
+    p {
+        font-size: 1.5em;
+        margin-top: .5em;
+    }
+}
+
