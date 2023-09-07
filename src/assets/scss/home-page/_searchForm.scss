@@ -5,17 +5,30 @@
     
 
     .form {
-        max-width: 60em;
+        max-width: 52em;
         margin: 0 auto;
+        display: block;
         padding: 2em 0;
+        display: flex;
     }
 
-    #manufacturer {
+    .dropDown {
+        display: inline;
+        text-align: center;
         font-size: 1.5em;
-        padding: 0.5625em 3.25em;
+        padding: .5625em 3em;
         background: $big-stone;
         color: $white;
         border: none;
+    }
+
+    #category {
+        margin-left: 2em;
+    }
+
+    .searchButton {
+        margin-left: 8em;
+        padding: .5625em 3em;
     }
 
 

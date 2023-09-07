@@ -1,6 +1,7 @@
 
 @import "_generals";
 @import "_variables";
-@import "./header/_header";
-@import "./home-page/_home-page";
-@import "./home-page/_searchForm";
+@import "./header/header";
+@import "./home-page/home-page";
+@import "./home-page/searchForm";
+@import "./buttons/searchbutton.scss"

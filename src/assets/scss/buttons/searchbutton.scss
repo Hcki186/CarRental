@@ -1,0 +1,23 @@
+
+.searchButton {
+    background-color: darken($red, 13%);
+    text-align: center;
+    letter-spacing: 0;
+    padding: .5em 1em;
+    font-size: .5em; 
+    color: $white;
+    display:block;
+    border-radius: .5em;
+
+    h1 {
+        position: relative;
+        top: .28em;
+        
+    }
+}
+
+
+.searchButton:hover {
+    background-color: darken($red, 7%);
+    transition: ease-in .25s;
+}
