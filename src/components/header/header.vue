@@ -1,11 +1,13 @@
 <template>
-    <div class="headerBar container">
-        <ul class="bar">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#rental">Rental Car</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about-us">About Us</a></li>
-        </ul>
+    <div class="headerBar">
+        <div class="container">
+            <ul class="bar">
+                <li><router-link to="/">Home</router-link></li>
+                <li><router-link to="/RentalCar">Rental Car</router-link></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><router-link to="/AboutUs">About Us</router-link></li>
+            </ul>
+        </div>
     </div>
 </template>
 

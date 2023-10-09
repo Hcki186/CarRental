@@ -2,6 +2,11 @@
     margin: 0 auto;
     padding-top: 0.4375em;
     text-align: center;
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    top: 26px;
+    transform: translate(-50%, -50%);
 }
 
 .bar {
