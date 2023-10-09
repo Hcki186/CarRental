@@ -1,0 +1,29 @@
+
+.categoryCart {
+    display: block;
+    margin-top: 28em;
+
+    .cards {
+        display: flex;
+
+    }
+
+    .card {
+        color: $white ;
+        font-size: 2em;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: bold;
+        line-height: 7.5em;
+        margin-left: 2.5em;
+        margin-bottom: 10em;
+        height: 9em;
+        width: 20em;
+        border: 2px solid blue;
+        background-color: $red;
+    }
+
+    .economiCard {
+        margin-left: 0;
+    }
+}
