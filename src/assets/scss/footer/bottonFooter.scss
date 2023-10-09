@@ -1,0 +1,36 @@
+
+.footerContact{
+    text-align: center;
+    line-height: 1.6em;
+    color: $white;
+    background-color: $stone-darken;
+    padding: 1em 0 .5em 0;
+    border-top: 4px solid darken($stone-darken, 5%);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+
+    h1 {
+        font-size: 1.2em;
+        margin-top: 0;
+    }
+
+    li {
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: darken($white, 25%);
+    }
+}
+
+.rights {
+    margin-bottom: 0;
+}
