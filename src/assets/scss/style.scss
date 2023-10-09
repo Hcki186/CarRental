@@ -1,7 +1,11 @@
 
 @import "_generals";
 @import "_variables";
+@import "./background/colorBG.scss";
+@import "./background/carBG.scss";
 @import "./header/header";
 @import "./home-page/home-page";
-@import "./home-page/searchForm";
-@import "./buttons/searchbutton.scss"
+@import "./buttons/searchbutton.scss";
+@import "./home-page/categoryCart";
+@import "./aboutUs/AboutUs.scss";
+@import "./footer/bottonFooter.scss";
