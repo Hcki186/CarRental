@@ -6,7 +6,7 @@
                 a poskytujeme profesionalne služby, invidualni pristup k našim klientom a ich komfort. Aj preto mame pripravené vozidla na 
                 sprevádzať Vaše cesty odkiaľkoľvek.Ponúkame vozidlá z kategórií ekonomická trieda, stredná trieda, luxusné vozidlá.</p>
         </div>
-        <div class="CarBG"></div>
+        <div class="CarBG imgBG"></div>
     </div>
 </template>
 
