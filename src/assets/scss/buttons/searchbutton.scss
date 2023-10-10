@@ -8,11 +8,12 @@
     color: $white;
     display:block;
     border-radius: .5em;
+    max-width: 38em;
+  
 
-    h1 {
-        position: relative;
-        top: .28em;
-        
+    a {
+        text-decoration: none;
+        color: darken($white, 10%);
     }
 }
 

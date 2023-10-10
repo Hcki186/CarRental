@@ -9,21 +9,45 @@
     }
 
     .card {
-        color: $white ;
+        color: darken($white, 20%) ;
         font-size: 2em;
         text-align: center;
         text-transform: capitalize;
         font-weight: bold;
-        line-height: 7.5em;
+        line-height: 4.5em;
         margin-left: 2.5em;
         margin-bottom: 10em;
         height: 9em;
         width: 20em;
-        border: 2px solid blue;
-        background-color: $red;
+        border: 3px solid darken($white, 70%);
+        border-radius: 3px;
+
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        transition: all .5s;
     }
 
     .economiCard {
+        background-image: url(../img/Audi-a1-ecoCardBG.png);
         margin-left: 0;
+    }
+
+
+    .mediumCard {
+        background-image: url(../img/BMW-3-mediumCardBG.png);
+    }
+
+    .luxuryCard{
+        background-image: url(../img/BMW-7-luxuryCardBG.png);
+    }
+
+   
+
+    p {
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+        height: inherit;
     }
 }
