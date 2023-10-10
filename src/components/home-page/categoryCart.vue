@@ -5,13 +5,13 @@
         </div>
         <div class="categoryCart container">
             <Div class="cards">
-                <div class="economiCard card">
+                <div class="economiCard card imgBG ">
                     <p>Ekonomická</p>
                 </div>
-                <div class="mediumCard card">
+                <div class="mediumCard card imgBG">
                     <p>Stredná</p>
                 </div>
-                <div class="luxuryCard card">
+                <div class="luxuryCard card imgBG">
                     <p>Luxusná</p>
                 </div>
             </Div>
