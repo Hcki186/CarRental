@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "test",
+        "manufacturer": "Audi",
+        "model": "A8",
+        "model2": "Audi-A8-Id1",
+        "modelDescription": "Audi A8 55 TFSI quattro Hybrid-Benzin",
+        "vehicleClass": "Luxury",
+        "category": "Limousine",
+        "gearbox": "Automat",
+        "enginePower": "250 kW (340 PS)",
+        "fuel": "Benzín",
+        "fourWheelDrive": true,
+        "images":["Audi-a1-ecoCardBG.png", "BMW-3-mediumCardBG.png", "BMW-7-luxuryCardBG.png"],
+        "description": "text text text",
+        "price":{
+            "firstTreeDays": [
+                {
+                    "day": "1-3",
+                    "price": "250€"
+                }
+            ],
+            "withinSevenDays": [
+                {
+                    "day": "4-7",
+                    "price": "200€"
+                }
+            ],
+            "withinFourteenDays": [
+                {
+                    "day": "8-14",
+                    "price": "175€"
+                }
+            ],
+            "withinThirtyDays": [
+                {
+                    "day":"15-30",
+                    "price": "150€"
+                }
+            ]
+        }
+    }
+]
