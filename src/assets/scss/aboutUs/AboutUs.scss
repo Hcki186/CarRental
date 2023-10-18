@@ -2,7 +2,7 @@
 
 .textarea    {
     padding-top: 10.875em;
-    color: white;
+    color: $white;
 
         h1 {
             font-size: 3.7em;
@@ -14,5 +14,6 @@
             font-size: 1.3em;
             max-width: 40em;
             font-weight: 400;
+            margin-bottom: 9.6em;
         }
 }
