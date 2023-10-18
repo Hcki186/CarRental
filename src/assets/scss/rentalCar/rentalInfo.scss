@@ -1,0 +1,19 @@
+.info {
+    color: darken($white, 10%);
+    padding-top: 10em;
+    line-height: .3em;
+    max-width: fit-content;
+    position: relative;
+    z-index: 2;
+    
+
+    h1{
+        font-size: 3.5em;
+    }
+    
+    p {
+        font-size: .9em;
+        line-height: 1em;
+        max-width: 29em;
+    }
+}
