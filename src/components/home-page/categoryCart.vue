@@ -1,6 +1,6 @@
 <template>
     <div class=" category">
-        <div class="">
+        <div class="offerCar container">
             <h1>Ponuka vozidiel</h1>
         </div>
         <div class="categoryCart container">
