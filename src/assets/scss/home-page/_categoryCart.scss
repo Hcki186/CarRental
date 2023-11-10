@@ -1,7 +1,7 @@
 
 .categoryCart {
     display: block;
-    margin-top: 28em;
+    margin-top: 2em;
 
     .cards {
         display: flex;
@@ -16,7 +16,7 @@
         font-weight: bold;
         line-height: 4.5em;
         margin-left: 2.5em;
-        margin-bottom: 7em;
+        margin-bottom: 5em;
         height: 9em;
         width: 20em;
         border: 3px solid darken($white, 70%);
@@ -49,5 +49,14 @@
         margin: 0;
         background-color: rgba(0, 0, 0, 0.2);
         height: inherit;
+    }
+}
+
+.offerCar {
+    color: darken($white, 10%);
+    margin-top: 28em;
+    
+    h1 {
+        font-size: 2.4em;
     }
 }
