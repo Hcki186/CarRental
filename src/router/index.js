@@ -24,6 +24,14 @@ const routes = [
     component: () =>
       import("../views/RentalCar.vue")
   },
+
+  {
+    path: "/RentalCar/:id",
+    name: "DetailCar",
+    props: true,
+    component: () =>
+      import("../views/DetailCar.vue")
+  },
 ];
 
 const router = new VueRouter({
