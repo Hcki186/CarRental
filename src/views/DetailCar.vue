@@ -23,11 +23,6 @@ import itemData from "../../Api.json"
 import carouselWrapper from "@/components/detailCar/carouselWrapper.vue"
 import carouselSlide from "@/components/detailCar/carouselSlide.vue"
 
-
-// v-for="(item, index) in wantedData.images" :key="item" :index="index"
-
-
-
 export default {
     name: "DetailCar",
     data() {
