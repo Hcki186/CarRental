@@ -1,23 +1,31 @@
 <template>
-  <div>
-    <div>
-      <P>TEST TEST TEST TEST {{ $route.params.id }} </P>
-      <p>{{ $route.params.id }}</p>
-      <p>{{ $props.id }}</p>
-
-      <p>
-        {{ wantedData.name }}
-      </p>
-
-
-
-
-    </div>
+  <div> 
+    
+    <carouselWrapper 
+        @next="next" 
+        @prev="prev"
+      >
+      <carouselSlide v-for="(item, index) in wantedData.images" 
+          :key="item" 
+          :index="index" 
+          :visibleSlide="visibleSlide"
+          :direction="direction"
+        >
+        <img :src="require(`@/assets/img/${item}`)" alt=""> 
+      </carouselSlide>
+    </carouselWrapper>
+   
   </div>
 </template>
 
 <script>
 import itemData from "../../Api.json"
+import carouselWrapper from "@/components/detailCar/carouselWrapper.vue"
+import carouselSlide from "@/components/detailCar/carouselSlide.vue"
+
+
+// v-for="(item, index) in wantedData.images" :key="item" :index="index"
+
 
 
 export default {
@@ -25,9 +33,18 @@ export default {
     data() {
         return {
           items: itemData,
-          data: []
+          visibleSlide: 0,
+          direction: "left",
+          
         }
     }, 
+
+    components: {
+      carouselWrapper,
+      carouselSlide,
+      
+    },
+
     props: {
     id: {
         type: String,
@@ -35,25 +52,56 @@ export default {
       },
     },
     mounted() {
-
+      
       this.log()
-
+    
+      
+      
     },
-
+    
     computed: {
+
       wantedData() {
-          return this.items.find((i) =>{
-            return i.id == this.$router.currentRoute.params.id 
-          })
-      }
+        return this.items.find((i) =>{
+          return i.id == this.$router.currentRoute.params.id
+          
+        })
+      },
+
+      slidesLen() {
+        return this.wantedData.images.length;
+      },
       
     },
     methods: {
+      
+      next() {
+        if(this.visibleSlide >= this.slidesLen - 1  ) {
+          this.visibleSlide = 0;
+        }else {
+          this.visibleSlide++;
+        }
+        this.direction = "left"
+      },
+
+      prev() {
+        if(this.visibleSlide <= 0) {
+          this.visibleSlide = this.slidesLen - 1 ;
+        }else {
+          this.visibleSlide--;
+        }
+        this.direction = "right"
+      },
 
 
-      log(){
-        console.log()
-      }, 
+     log() {
+      console.log(this.wantedData.images.length)
+     }
+      
+      
+      
+      
+      
               
       
     }

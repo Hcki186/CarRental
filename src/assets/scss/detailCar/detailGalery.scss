@@ -1,0 +1,98 @@
+
+
+.carouselWrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.carouselWrapper > button {
+    position: absolute;
+    z-index: 2;
+    font-size: 2.5em;
+    background: none;
+    border: none;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    border-radius: .15em;
+    padding: 0 .30em;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.carouselWrapper > button:hover,
+.carouselWrapper > button:focus {
+    color: rgba(255, 255, 255, .7);
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.carouselWrapper > button.prev {
+    left: .5em;
+}
+
+.carouselWrapper > button.next{
+    right: .9em;
+}
+
+.carousel-slide {
+    position: relative;
+    inset: 0;
+
+}
+
+.carousel-slide > img {
+    display: block;
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 1em 3em black;
+}
+
+
+.carousel-slide {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.left-enter-active {
+    animation: leftInAnimation .4s ease-in-out;
+}
+
+.left-leave-active {
+    animation: leftOutAnimation .4s ease-in-out;
+
+}
+
+@keyframes leftInAnimation {
+    from { transform: translateX(100%);}
+    to { transform: translateX(0);}
+}
+
+@keyframes leftOutAnimation {
+    from { transform: translateX(0);}
+    to { transform: translateX(-100%);}
+}
+
+.right-enter-active {
+    animation: righttInAnimation .4s ease-in-out;
+}
+
+.right-leave-active {
+    animation: righttOutAnimation .4s ease-in-out;
+
+}
+
+@keyframes righttInAnimation {
+    from { transform: translateX(-100%);}
+    to { transform: translateX(0);}
+}
+
+@keyframes righttOutAnimation {
+    from { transform: translateX(0);}
+    to { transform: translateX(100%);}
+}
