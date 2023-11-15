@@ -146,7 +146,7 @@ export default {
     },
     mounted() {
       
-      this.log()
+      
       
       
       
@@ -184,18 +184,7 @@ export default {
           this.visibleSlide--;
         }
         this.direction = "right"
-      },
-      
-
-     log() {
-      console.log(this.wantedData.images.length)
-     }
-      
-      
-      
-      
-      
-              
+      },       
       
     }
 }
