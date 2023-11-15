@@ -21,18 +21,13 @@
     justify-content: space-between;
 }
 
-
-
 .slide {
     max-width: 27em;
     position: relative;
     margin-bottom: 10em;
     color: $silver-chalice;
-
     border: 3px lighten($bg-rental-side, 1%) solid;
     border-radius: 4px;
-
-
 
     h1 {
         font-size: 1.6em;
@@ -41,11 +36,9 @@
     }
 }
 
-
 .slideImg {
     max-width: 100%;
 }
-
 
 .sizeImg{
     width: 100%;
@@ -56,7 +49,3 @@
     object-fit: cover;
     object-position: center;
 }
-
-
-
-//     filter: invert(80%); biela farba dig 
