@@ -30,14 +30,33 @@ const routes = [
     name: "DetailCar",
     props: true,
     component: () =>
-      import("../views/DetailCar.vue")
+      import("../views/DetailCar.vue"),
+  },
+
+  {
+    path: '/:pathMatch(.*)*',
+    component: () =>
+      import("../views/notFoundPage.vue"),
   },
 ];
 
 const router = new VueRouter({
     mode: "history",
+    
     base: process.env.BASE_URL,
     routes,
+
+    scrollBehavior(to, from, savedPosition) {
+      if (to.hash) {
+        return {
+          selector: to.hash
+        };
+      }
+      if (savedPosition) {
+        return savedPosition;
+      }
+      return {x: 0, y: 0};
+    }
   });
 
 

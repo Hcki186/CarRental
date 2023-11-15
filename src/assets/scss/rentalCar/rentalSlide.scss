@@ -13,7 +13,7 @@
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(426px, auto));
     grid-gap: 44px;
     margin: 4em auto;
     max-width: 65em;
@@ -24,7 +24,7 @@
 
 
 .slide {
-    max-width: 25em;
+    max-width: 27em;
     position: relative;
     margin-bottom: 10em;
     color: $silver-chalice;
@@ -48,10 +48,13 @@
 
 
 .sizeImg{
-    max-width: 100%;
-    max-height: 287px;
+    width: 100%;
+    max-height: 229px;
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
+    box-shadow: 0.2em 0.5em 1.1em black;
+    object-fit: cover;
+    object-position: center;
 }
 
 

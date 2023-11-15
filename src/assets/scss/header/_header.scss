@@ -1,9 +1,18 @@
+
+.navHeader {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100vw;
+    height: 4em;
+    z-index: 100;
+}
+
+
 .headerBar {
     margin: 0 auto;
     padding-top: 0.4375em;
     text-align: center;
     position: fixed;
-    z-index: 100;
     left: 50%;
     top: 26px;
     transform: translate(-50%, -50%);

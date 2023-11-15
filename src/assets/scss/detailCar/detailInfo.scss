@@ -1,0 +1,65 @@
+
+
+
+.detailInfo {
+    display: grid;
+    color: darken($white, 22%);
+}   
+
+.detailInfo > h1 {
+    text-align: center;
+    font-size: 3em;
+    color: darken($white, 15%);
+}
+
+.gridDetail {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1em;
+    padding: 1.5em;
+    grid-auto-rows: minmax(100px, auto);
+
+    h2{
+        font-size: 1.9em;
+        font-weight: normal;
+        color: $fontTitleColor;
+    }
+}
+
+.parameters {
+    grid-column: 1/4;
+
+    .right {
+        padding-left: 1em;
+    }
+}
+
+.price {
+    grid-column: 5/7;
+    justify-content: space-around;
+
+    .right{
+        text-align: center;
+    }
+}
+
+.descriptionCar {
+    grid-column: 1/4;
+}
+
+.conditions {
+    grid-column: 5/7;
+    
+    .flex {
+        justify-content: space-around;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
+
+
+.spcLeft {
+    padding: 1em;
+}
