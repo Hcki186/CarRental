@@ -1,44 +1,351 @@
 [
     {
         "id": 1,
-        "name": "test",
+        "name": "AUDI A8 L 4.2",
         "manufacturer": "Audi",
         "model": "A8",
-        "model2": "Audi-A8-Id1",
-        "modelDescription": "Audi A8 55 TFSI quattro Hybrid-Benzin",
+        "modelDescription": "AUDI A8 L 4.2 QUATTRO",
         "vehicleClass": "Luxury",
         "category": "Limousine",
         "gearbox": "Automat",
-        "enginePower": "250 kW (340 PS)",
+        "enginePower": "283 kW (385 PS)",
+        "enginType": "V8 BI-TURBO",
+        "acceleration": "5.2 S (0-100KM/H)",
+        "fuel": "Diesel",
+        "fourWheelDrive": true,
+        "Chassis": "QUATTRO (4x4)",
+        "images":["Audi-a8-front-id1.png", "Audi-a8-side-id1.png", "Audi-a8-cocpit-id1.png", "Audi-a8-back-seats-id1.png"],
+        "description": "",
+        "descriptionTitle": "",
+        "equipment": "Panoramatická strecha | Matrix light | BOSE Audio | R21 disky | Masážne – chladené – vyhrievané sedačky | Head-Up Display | Night Vision | Bezkľúčové štartovanie | Doťah dverí",
+        "equipmentTitle": "Výbava",
+        "prices":{
+            "day":["1-3", "4-7", "8-14", "15-30"],
+            "price":["110 €", "90€", "75€", "55€"]
+        },
+        "conditions":{
+            "rules": ["depozit", "Denný nájazd", "Mesačný nájazd", "Nad limit km", "Min. vek vodiča"],
+            "condition": ["1500 €", "250 km/deň", "4000 km", "0,4€ / km", "20 rokov"]
+        }
+    },
+    {
+        "id": 2,
+        "name": "MERCEDES-BENZ AMG GT S",
+        "manufacturer": "MERCEDES-BENZ",
+        "model": "AMG GT S",
+        "modelDescription": "MERCEDES-BENZ AMG GT S",
+        "vehicleClass": "Luxury",
+        "category": "Coupe",
+        "gearbox": "D-CL. 7 (AUT.)",
+        "enginePower": "375 kW (510 PS)",
+        "enginType": "V-8 TWIN-TURBO",
+        "acceleration": "3.3 S (0-100 KM/H)",
+        "fuel": "Benzín",
+        "fourWheelDrive": false,
+        "Chassis": "ZADNÝ NÁHON",
+        "images":["Mercedes-GT-front-id2.png", "Mercedes-GT-Side-id2.png", "Mercedes-GT-Back-id2.png", "Mercedes-GT-Interier-id2.png"],
+        "description": "Mercedes-AMG GT S si musíte zamilovať na prvý pohľad. Nemá zmysel uvažovať nad tým, komu má vlastne konkurovať, pretože keď už niekto chová sympatie k značkám Mercedes-Benz a AMG, ani nebude zvažovať výber iného konkurenčného vozidla.",
+        "descriptionTitle": "Popis",
+        "equipment": "Bezkľúčové otváranie | LED svetlomety  | Panoramatická strecha | R20 disky | vyhrievané sedačky | Burmester audio | El. nastaviteľné predné sedadlá | Bezkľúčové štartovanie ",
+        "equipmentTitle": "Výbava",
+        "prices":{
+            "day":["1-3", "4-7", "8-14", "15-30"],
+            "price":["250 €", "210 €", "180 €", "150 €"]
+        },
+        "conditions":{
+            "rules": ["depozit", "Denný nájazd", "Mesačný nájazd", "Nad limit km", "Min. vek vodiča"],
+            "condition": ["2000 €", "200 km/deň", "3500 km", "1,0€ / km", "21 rokov"]
+        }
+    },
+    {
+        "id": 3,
+        "name": "BMW M4 COMPETITION",
+        "manufacturer": "BMW",
+        "model": "M4 COMPETITION",
+        "modelDescription": "BMW M4 COMPETITION",
+        "vehicleClass": "Luxury",
+        "category": "Cabrio",
+        "gearbox": "AUT. 8",
+        "enginePower": "375 kW (510 PS)",
+        "enginType": "I-6 TWIN-TURBO",
+        "acceleration": "3.7 S (0-100 KM/H)",
         "fuel": "Benzín",
         "fourWheelDrive": true,
-        "images":["Audi-a1-ecoCardBG.png", "BMW-3-mediumCardBG.png", "BMW-7-luxuryCardBG.png"],
-        "description": "text text text",
-        "price":{
-            "firstTreeDays": [
-                {
-                    "day": "1-3",
-                    "price": "250€"
-                }
-            ],
-            "withinSevenDays": [
-                {
-                    "day": "4-7",
-                    "price": "200€"
-                }
-            ],
-            "withinFourteenDays": [
-                {
-                    "day": "8-14",
-                    "price": "175€"
-                }
-            ],
-            "withinThirtyDays": [
-                {
-                    "day":"15-30",
-                    "price": "150€"
-                }
-            ]
+        "Chassis": "M XDRIVE (4x4)",
+        "images":["BMW-M4-Front-id3.png", "BMW-M4-Side-id3.png", "BMW-M4-Back-id3.png", "BMW-M4-Interier-id3.png"],
+        "description": "BMW M4 Competition Coupé stanovuje výkonový vrchol pre M automobily BMW radu 4 Coupé. Radový benzínový 6-valec M TwinPower Turbo s výkonom 510 koní a množstvo technológií pohonu aj podvozka, odvodených od motoršportu, dodávajú tomuto športovému kupé pre M typickú jazdnú dynamiku na najvyššej možnej úrovni. Doplnkový pohon všetkých kolies M xDrive s aktívnym M diferenciálom garantuje maximálnu jazdnú dynamiku za každých okolností, pri každodennom využití aj na pretekárskom okruhu.",
+        "descriptionTitle": "Popis",
+        "equipment": "Harman-Kardon Audio | Head-up Display | Predné sedadlá s aktívnou ventiláciou | BMW Laserlight (BMW laserové svetlomety) | M Shadowline svetlomety | M karbónový exteriérový balík | M lišty Shadow Line s rozšíreným rozsahom | M Drive Professional | M Sport diferenciál | Bezpečnostné pásy M | Adaptívny M podvozok | M strop Anthracite |Rozšírený asistent parkovania | M Sport sedadlá",
+        "equipmentTitle": "Výbava",
+        "prices":{
+            "day":["1-3", "4-7", "8-14", "15-30"],
+            "price":["250 €", "210 €", "180 €", "150 €"]
+        },
+        "conditions":{
+            "rules": ["depozit", "Denný nájazd", "Mesačný nájazd", "Nad limit km", "Min. vek vodiča"],
+            "condition": ["2500 €", "200 km/deň", "3500 km", "1,0€ / km", "23 rokov"]
+        }
+    },
+    {
+        "id": 4,
+        "name": "MERCEDES-BENZ S 350",
+        "manufacturer": "MERCEDES-BENZ",
+        "model": "S 350",
+        "modelDescription": "MERCEDES-BENZ S 350",
+        "vehicleClass": "Luxury",
+        "category": "Limousine",
+        "gearbox": "AUT. 9",
+        "enginePower": "210 kW (286 PS)",
+        "enginType": "V-6",
+        "acceleration": "6.1 S (0-100 KM/H)",
+        "fuel": "Benzín",
+        "fourWheelDrive": true,
+        "Chassis": "4MATIC (4x4)",
+        "images":["Mercedes-S350-Front-id4.png", "Mercedes-S350-Side-id4.png", "Mercedes-S350-Back-id4.png", "Mercedes-S350-Interier-id4.png", "Mercedes-S350-Interier-Ambient-id4.png"],
+        "description": "Kráľ je len jeden. S-class je suverénna cesta medzi štýlom a luxusom.",
+        "descriptionTitle": "Popis",
+        "equipment": "AMG line | Burmester audio | panoramatická strecha | Head-up Display | aut. doťah dverí | bezkľúčové odomykanie aj štartovanie | R20 AMG disky | nový facelift",
+        "equipmentTitle": "Výbava",
+        "prices":{
+            "day":["1-3", "4-7", "8-14", "15-30"],
+            "price":["160 €", "130 €", "100 €", "80 €"]
+        },
+        "conditions":{
+            "rules": ["depozit", "Denný nájazd", "Mesačný nájazd", "Nad limit km", "Min. vek vodiča"],
+            "condition": ["1500 €", "250 km/deň", "3500 km", "0,5€ / km", "20 rokov"]
+        }
+    },
+    {
+        "id": 5,
+        "name": "AUDI A7 3.0 TDI S-LINE",
+        "manufacturer": "Audi",
+        "model": "A7",
+        "modelDescription": "AUDI A7 3.0 TDI S-LINE",
+        "vehicleClass": "Stredna",
+        "category": "Limousine",
+        "gearbox": "S-TRONIC (AUT. 7)",
+        "enginePower": "217 kW (295 PS)",
+        "enginType": "V-6",
+        "acceleration": "6.5 S (0-100 KM/H)",
+        "fuel": "Diesel",
+        "fourWheelDrive": true,
+        "Chassis": "QUATTRO (4x4)",
+        "images":["Audi-A7-Front-id5.png", "Audi-A7-Side-id5.png", "Audi-A7-Back-id5.png", "Audi-A7-Interier-id5.png"],
+        "description": "",
+        "descriptionTitle": "",
+        "equipment": "3x S-Line | BOSE audio | strešné okno | Head-Up displej | Vzduchový podvozok |Alcantara Sedačky | 20” disky",
+        "equipmentTitle": "Výbava",
+        "prices":{
+            "day":["1-3", "4-7", "8-14", "15-30"],
+            "price":["90 €", "70 €", "55 €", "50 €"]
+        },
+        "conditions":{
+            "rules": ["depozit", "Denný nájazd", "Mesačný nájazd", "Nad limit km", "Min. vek vodiča"],
+            "condition": ["1000 €", "250 km/deň", "4000 km", "0,3€ / km", "18 rokov"]
+        }
+    },
+    {
+        "id": 6,
+        "name": "BMW 330D",
+        "manufacturer": "BMW",
+        "model": "330D",
+        "modelDescription": "BMW 330D",
+        "vehicleClass": "Stredna",
+        "category": "Limousine",
+        "gearbox": "AUT. 8",
+        "enginePower": "190 kW (258 PS)",
+        "enginType": "V-6",
+        "acceleration": "5.8 S (0-100 KM/H)",
+        "fuel": "Diesel",
+        "fourWheelDrive": true,
+        "Chassis": "XDRIVE (4x4)",
+        "images":["BMW-330D-Front-id6.png", "BMW-330D-Side-id6.png", "BMW-330D-Back-id6.png", "BMW-330D-Interier-id6.png", "BMW-330D-BackSeats-id6.png"],
+        "description": "",
+        "descriptionTitle": "",
+        "equipment": "M-packet | M – výfuky | R19 M – disky | Harman-Kardon audio | Alcantara sedačky | bezkľúčové štartovanie",
+        "equipmentTitle": "Výbava",
+        "prices":{
+            "day":["1-3", "4-7", "8-14", "15-30"],
+            "price":["100 €", "85 €", "65 €", "50 €"]
+        },
+        "conditions":{
+            "rules": ["depozit", "Denný nájazd", "Mesačný nájazd", "Nad limit km", "Min. vek vodiča"],
+            "condition": ["1000 €", "250 km/deň", "4000 km", "0,3€ / km", "20 rokov"]
+        }
+    },
+    {
+        "id": 7,
+        "name": "JAGUAR F-PACE S",
+        "manufacturer": "JAGUAR",
+        "model": "F-PACE S",
+        "modelDescription": "JAGUAR F-PACE S",
+        "vehicleClass": "Stredna",
+        "category": "SUV",
+        "gearbox": "AUT. 8",
+        "enginePower": "221 kW (300 PS",
+        "enginType": "V-6",
+        "acceleration": "6.3 S (0-100KM/H)",
+        "fuel": "Benzín",
+        "fourWheelDrive": true,
+        "Chassis": "J-D-4WD (4x4)",
+        "images":["Jaguar-F-Pace-Front-id7.png", "Jaguar-F-Pace-Side-id7.png", "Jaguar-F-Pace-Back-id7.png", "Jaguar-F-Pace-Interier-id7.png"],
+        "description": "Vstúpte do sveta F-PACE, kde sa inovácie stretávajú s eleganciou. Nový jazdný štandard, navrhnutý tak, aby inšpiroval a ohromil.",
+        "descriptionTitle": "Popis",
+        "equipment": "Vyhrievané predné sedadlá | Panoramatická strecha | R19 – disky | Automatické zabrzdenie v kopci | bezkľúčové štartovanie",
+        "equipmentTitle": "Výbava",
+        "prices":{
+            "day":["1-3", "4-7", "8-14", "15-30"],
+            "price":["110 €", "90 €", "75 €", "65 €"]
+        },
+        "conditions":{
+            "rules": ["depozit", "Denný nájazd", "Mesačný nájazd", "Nad limit km", "Min. vek vodiča"],
+            "condition": ["1200 €", "250 km/deň", "4000 km", "0,35€ / km", "18 rokov"]
+        }
+    },
+    {
+        "id": 8,
+        "name": "AUDI Q8 50 TDI S-LINE",
+        "manufacturer": "Audi",
+        "model": "Q8",
+        "modelDescription": "AUDI Q8 50 TDI S-LINE",
+        "vehicleClass": "Luxury",
+        "category": "SUV",
+        "gearbox": "AUT. 8",
+        "enginePower": "210 kW (282 PS)",
+        "enginType": "V-6",
+        "acceleration": "6.7 (0-100 KM/H)",
+        "fuel": "Diesel",
+        "fourWheelDrive": true,
+        "Chassis": "QUATTRO (4x4)",
+        "images":["Audi-Q8-Front-id8.png", "Audi-Q8-Back-id8.png", "Audi-Q8-Interier-id8.png"],
+        "description": "Vitajte v svete kde krása a výkon sa spájajú do jedného majestátneho stroja – Audi Q8 50 TDI Quattro S-line. Tento špičkový automobil sa pýši vynikajúcou dynamikou, ktorá vám umožní okamžite zaznamenať jeho pôsobivosť. S jeho nádherným dizajnom a dokonalým detailom si budete vždy istí, že vyniknete na cestách.",
+        "descriptionTitle": "Popis",
+        "equipment": "Disky Audi Sport R22 | Panoramatická strecha | S-line | Adaptive air suspension sport | Glanzpaket schwarz | Volant sport 3 ramenný",
+        "equipmentTitle": "Výbava",
+        "prices":{
+            "day":["1-3", "4-7", "8-14", "15-30"],
+            "price":["150 €", "130 €", "110 €", "95 €"]
+        },
+        "conditions":{
+            "rules": ["depozit", "Denný nájazd", "Mesačný nájazd", "Nad limit km", "Min. vek vodiča"],
+            "condition": ["2000 €", "200 km/deň", "3500 km", "0,7€ / km", "21 rokov"]
+        }
+    },
+    {
+        "id": 9,
+        "name": "PORSCHE CAYENNE",
+        "manufacturer": "PORSCHE",
+        "model": "CAYENNE",
+        "modelDescription": "PORSCHE CAYENNE",
+        "vehicleClass": "Luxury",
+        "category": "SUV",
+        "gearbox": "AUT. 8",
+        "enginePower": "210 kW (282 PS)",
+        "enginType": "V-6",
+        "acceleration": "6.0 S (0-100 KM/H)",
+        "fuel": "Benzín",
+        "fourWheelDrive": true,
+        "Chassis": "4x4",
+        "images":["Porsche-Cayenne-front-id9.png", "Porsche-Cayenne-Back-id9.png", "Porsche-Cayenne-Interier-id9.png"],
+        "description": "To, čo nás všetkých spája, je nadšenie pre športové automobily. Začína sa to ešte pred naštartovaním motora – už zbežný pohľad na dynamické proporcie modelov Cayenne odhalí typickú DNA značky Porsche. Atmosféru športového vozidla zacítime okamžite po nasadnutí, a to vďaka kvalitnému štandardnému vybaveniu.",
+        "descriptionTitle": "Popis",
+        "equipment": "Panoramatická strecha | Vzduchový podvozok | bezkľúčové štartovanie | R21 disky | Car Play",
+        "equipmentTitle": "Výbava",
+        "prices":{
+            "day":["1-3", "4-7", "8-14", "15-30"],
+            "price":["150 €", "130 €", "110 €", "95 €"]
+        },
+        "conditions":{
+            "rules": ["depozit", "Denný nájazd", "Mesačný nájazd", "Nad limit km", "Min. vek vodiča"],
+            "condition": ["2000 €", "200 km/deň", "3500 km", "0,7€ / km", "21 rokov"]
+        }
+    },
+    {
+        "id": 10,
+        "name": "ŠKODA SUPERB",
+        "manufacturer": "Škoda",
+        "model": "Superb",
+        "modelDescription": "ŠKODA SUPERB",
+        "vehicleClass": "Stredna",
+        "category": "Limousine",
+        "gearbox": "DSG (AUT. 7)",
+        "enginePower": "206 kW (272 PS)",
+        "enginType": "I-4",
+        "acceleration": "5,3 S (0-100 KM/H)",
+        "fuel": "Benzín",
+        "fourWheelDrive": true,
+        "Chassis": "4x4",
+        "images":["Škoda-Superb-Front-id10.png", "Škoda-Superb-Side-id10.png","Škoda-Superb-Back-id10.png", "Škoda-Superb-Interier-id10.png"],
+        "description": "Ak milujete rally a túžite po poriadnom adrenalíne pri každej jazde, verzia SportLine je pre vás ako stvorená. Atraktívna kombinácia s čiernymi exkluzívnymi prvkami je naozaj očarujúca. ",
+        "descriptionTitle": "Popis",
+        "equipment": "Panoramatická strecha | Športové sedadlá | Full LED Matrix predné svetlomety | bezkľúčové štartovanie | R18 disky | Car Play",
+        "equipmentTitle": "Výbava",
+        "prices":{
+            "day":["1-3", "4-7", "8-14", "15-30"],
+            "price":["105 €", "95 €", "75 €", "60 €"]
+        },
+        "conditions":{
+            "rules": ["depozit", "Denný nájazd", "Mesačný nájazd", "Nad limit km", "Min. vek vodiča"],
+            "condition": ["1000 €", "250 km/deň", "4000 km", "0,3€ / km", "19 rokov"]
+        }
+    },
+    {
+        "id": 11,
+        "name": "ŠKODA FABIA",
+        "manufacturer": "Škoda",
+        "model": "Fabia",
+        "modelDescription": "ŠKODA FABIA",
+        "vehicleClass": "Ekonomicka",
+        "category": "Hatchback",
+        "gearbox": "DSG (AUT. 7)",
+        "enginePower": "110 kW (150 PS)",
+        "enginType": "I-4",
+        "acceleration": "7,9 S (0-100 KM/H)",
+        "fuel": "Benzín",
+        "fourWheelDrive": false,
+        "Chassis": "FWD",
+        "images":["Škoda-Fabia-Front-id11.png","Škoda-Fabia-Back-id11.png", "Škoda-Fabia-Interier-id11.png"],
+        "description": "Športový dojem vychádza zo športového koženého multifunkčného vyhrievaného volantu a interiéru Monte Carlo s čiernym stropom. ",
+        "descriptionTitle": "Popis",
+        "equipment": " Športové sedadlá | Full LED zadné svetlá | bezkľúčové štartovanie | R16 disky | 3-ramenný, multifunkčný, vyhrievaný, športový, kožený volant",
+        "equipmentTitle": "Výbava",
+        "prices":{
+            "day":["1-3", "4-7", "8-14", "15-30"],
+            "price":["80 €", "70 €", "60 €", "45 €"]
+        },
+        "conditions":{
+            "rules": ["depozit", "Denný nájazd", "Mesačný nájazd", "Nad limit km", "Min. vek vodiča"],
+            "condition": ["600 €", "250 km/deň", "4000 km", "0,3€ / km", "18 rokov"]
+        }
+    },
+    {
+        "id": 12,
+        "name": "VOLKSWAGEN GOLF",
+        "manufacturer": "VOLKSWAGEN",
+        "model": "GOLF",
+        "modelDescription": "VOLKSWAGEN GOLF",
+        "vehicleClass": "Ekonomicka",
+        "category": "Hatchback",
+        "gearbox": "DSG (AUT. 7)",
+        "enginePower": "140 kW (190 PS)",
+        "enginType": "I-4",
+        "acceleration": "6,8 S (0-100 KM/H)",
+        "fuel": "Benzín",
+        "fourWheelDrive": true,
+        "Chassis": "4motion (4x4)",
+        "images":["VW-Golf-Front-id12.png","VW-Golf-Back-id12.png", "VW-Golf-Interier-id12.png"],
+        "description": "Golf prichádza. A nastavuje úplne nové merítka digitalizácie na ceste. Vďaka jeho inteligentným asistenčným systémom je každá jazda komfortnejšia a uvolnenejšia. To všetko v kombinácii s typickými pocitmi, ktoré sú spojené s modelom Golf.",
+        "descriptionTitle": "Popis",
+        "equipment": " Športové sedadlá | IQ.LIGHT LED Matrix svetlá | bezkľúčové štartovanie | R18 disky | 3-ramenný, multifunkčný, vyhrievaný, športový, kožený volant",
+        "equipmentTitle": "Výbava",
+        "prices":{
+            "day":["1-3", "4-7", "8-14", "15-30"],
+            "price":["90 €", "80 €", "60 €", "55 €"]
+        },
+        "conditions":{
+            "rules": ["depozit", "Denný nájazd", "Mesačný nájazd", "Nad limit km", "Min. vek vodiča"],
+            "condition": ["800 €", "250 km/deň", "4000 km", "0,3€ / km", "18 rokov"]
         }
     }
+      
 ]
