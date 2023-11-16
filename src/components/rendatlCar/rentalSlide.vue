@@ -21,7 +21,7 @@
         </div>
         <div class="RentalSlides grid">
             <div v-for="item in filterCategory" :key="item.id" >
-                <div v-flex class="slide ">
+                <div class="slide ">
                     <router-link  style="text-decoration: none; color: inherit" :to="`/RentalCar/${item.id}`">
                         <img :src="getImg(item.images[0])" :alt="item.images" class="imgBG slideImg sizeImg">
                         <h1>{{ item.name }}</h1>
