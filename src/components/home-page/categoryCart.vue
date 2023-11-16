@@ -7,13 +7,13 @@
             <router-link to="/RentalCar">
 
                 <Div class="cards">
-                    <div @click="eco" class="economiCard card imgBG ">
+                    <div class="economiCard card imgBG ">
                         <p>Ekonomická</p>
                     </div>
-                    <div @click="mid" class="mediumCard card imgBG">
+                    <div class="mediumCard card imgBG">
                         <p>Stredná</p>
                     </div>
-                    <div @click="lux" class="luxuryCard card imgBG">
+                    <div class="luxuryCard card imgBG">
                         <p>Luxusná</p>
                     </div>
                 </Div>
