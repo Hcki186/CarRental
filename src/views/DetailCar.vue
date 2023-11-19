@@ -24,19 +24,19 @@
             <h2>PARAMETRE</h2>
             <div class="spcLeft flex">
               <div class="left">
-                <div class="flex">
+                <div class="flex flexStart">
                   <img class="iconSlide" src="https://img.icons8.com/external-wanicon-lineal-wanicon/32/external-engine-car-service-wanicon-lineal-wanicon.png" alt="power"/>
                   <p>
                     {{ wantedData.enginePower }}
                   </p>
                 </div>
-                <div class="flex">
+                <div class="flex flexStart">
                   <img class="iconSlide" src="https://img.icons8.com/ios/32/turbocharger.png" alt="turbocharger"/>
                   <p>
                     {{ wantedData.enginType }}
                   </p>
                 </div>
-                <div class="flex">
+                <div class="flex flexStart">
                   <img class="iconSlide" src="https://img.icons8.com/ios/32/speed--v1.png" alt="speed--v1"/>
                   <p>
                     {{ wantedData.acceleration }}
@@ -44,13 +44,13 @@
                 </div>
               </div>
               <div class="right">
-                <div class="flex">
+                <div class="flex flexStart">
                   <img class="iconSlide" src="https://img.icons8.com/ios-glyphs/32/gearbox-selector.png" alt="gearbox-selector"/>
                   <p>
                     {{ wantedData.gearbox }}
                   </p>
                 </div>
-                <div class="flex">
+                <div class="flex flexStart">
                   <img class="iconSlide" src="https://img.icons8.com/external-those-icons-lineal-those-icons/32/external-chassis-cars-components-those-icons-lineal-those-icons.png" alt="Chassis"/>
                   <p>
                     {{ wantedData.Chassis }}

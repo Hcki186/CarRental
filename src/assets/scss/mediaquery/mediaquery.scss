@@ -194,7 +194,7 @@
     }
 
     .detailInfo{
-        font-size: .6em;
+        font-size: .57em;
     }
 
     .carouselWrapper{
@@ -249,6 +249,46 @@
             top: 52%;
         }
     }
+    .gridDetail{
+
+        .flexStart{
+            justify-content: flex-start;
+        }
+
+        .flex{
+            justify-content: space-around;
+        }
+
+        .parameters {
+            grid-column: 1/7;
+            text-align: center;
+        }
+        
+        .price {
+            grid-column: 1/7;
+        }
+        
+        .descriptionCar {
+            grid-column: 1/7;
+            text-align: center;
+            
+           
+
+            p{
+                text-align: left;
+            }
+        }
+        
+        .conditions {
+            grid-column: 1/7;
+        }
+    }
+    
+    
+    
+
+    
+
 
 }
 
