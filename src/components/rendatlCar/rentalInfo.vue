@@ -10,7 +10,6 @@
                 </p>
             </div>
         </div>
-        <div class="rentalBG imgBG"></div>
     </div>
 </template>
 
