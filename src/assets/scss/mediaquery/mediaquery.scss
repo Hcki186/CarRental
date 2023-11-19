@@ -1,0 +1,282 @@
+@media only screen and (max-width: 1250px) {
+    .carousel-slide > img {
+        height: 80vh
+    }
+
+    .RentalInfo{
+        height: 100vh
+    }
+
+    .CarBG{
+        height: 100vh
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .paddnig{
+        padding: 0 1.5em;
+    }
+
+    .grid{
+        justify-content: center;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1030px) {
+    .carousel-slide > img {
+        height: 70vh
+    }
+
+    .RentalInfo{
+        height: 80vh
+    }
+
+    .CarBG{
+        height: 80vh
+    }
+
+    .navHeader{
+        height: 3.4em;
+        .bar{
+            font-size: 1.1em;
+        }
+    }
+
+    .homePageText{
+        padding-top: 13.5em;
+    }
+
+    .carouselWrapper{
+        height: 80vh;
+
+        button{
+            top: 41%;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 880px) {
+    .carousel-slide > img {
+        height: 50vh
+    }
+
+    .RentalInfo{
+        height: 62vh
+    }
+
+    .CarBG{
+        height: 77vh
+    }
+
+    .navHeader{
+        height: 3em;
+
+        .headerBar{
+            padding-top: 0;
+        }
+
+        .bar{
+            font-size: .8em;
+        }
+    }
+
+    .homePageText{
+        padding-top: 13.5em;
+    }
+
+    .textarea{
+        font-size: .9em;
+        max-width: 37em;
+
+        p{
+            margin-bottom: 10.6em;
+
+        }
+    }
+
+
+    .detailInfo{
+        font-size: .8em;
+    }
+
+    .carouselWrapper{
+        height: 56vh;
+
+        button{
+            top: 41%;
+        }
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .carousel-slide > img {
+        height: 40vh
+    }
+
+    .RentalInfo{
+        height: 45vh
+    }
+
+
+    .homePageText{
+        font-size: .7em;
+        padding-top: 19.8em;
+    }
+
+
+    .navHeader{
+        height: 2.7em;
+
+        .headerBar{
+            padding-top: 0;
+        }
+
+        .bar{
+            font-size: .6em;
+        }
+    }
+
+    .textarea{
+        font-size: .8em;
+        max-width: 38em;
+
+        p{
+            margin-bottom: 8em;
+
+        }
+    }
+
+
+    .detailInfo{
+        font-size: .66em;
+    }
+
+    .carouselWrapper{
+        height: 45vh;
+
+        button{
+            top: 43%;
+        }
+    }
+
+    .footerContact{
+        bottom: -141px;
+    }
+
+}
+
+@media only screen and (max-width: 560px) {
+    .carousel-slide > img {
+        height: 37vh;
+    }
+
+    .RentalInfo{
+        height: 37vh;
+
+        .info{
+            font-size: .7em;
+        }
+    } 
+
+    .filter{
+        font-size: .7em;
+    }
+
+    .grid{
+        grid-template-columns: repeat(auto-fit, minmax(280px, 400px));
+    }
+    .navHeader{
+        height: 2.4em;
+    }
+
+    .detailInfo{
+        font-size: .6em;
+    }
+
+    .carouselWrapper{
+        height: 40vh;
+
+        button{
+            top: 45%;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .carousel-slide > img {
+        height: 35vh
+    }
+
+    .RentalInfo{
+        height: 35vh
+    }
+
+    .welcomeText > h1 {
+        font-size: 2.55em;
+    }
+
+
+    .navHeader{
+        
+
+        .headerBar{
+            padding-top: 0;
+        } 
+
+        .bar{
+            font-size: .4em;
+        }
+    }
+
+    .textarea{
+        font-size: .6em;
+        max-width: 23em;
+        padding-top: 12em;
+
+        p{
+            margin-bottom: 11em;
+        }
+    }
+    
+    .carouselWrapper{
+        height: 35vh;
+
+        button{
+            top: 52%;
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 460px) {
+    .slide{
+        font-size: .8em;
+    }
+
+    .RentalInfo .info{
+            font-size: .6em;
+        }
+    
+    .filter{
+        font-size: .6em;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
