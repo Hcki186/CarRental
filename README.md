@@ -1,5 +1,5 @@
 # car-rental
-Link for look up: https://car-rental-a7yl-ixg8gq88v-branislavs-projects.vercel.app/RentalCar
+Link for look up: https://car-rental-a7yl.vercel.app/
 ## Project setup
 ```
 npm install
